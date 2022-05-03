@@ -1,0 +1,146 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.main-font{
+
+    font-family: 'Roboto', sans-serif;
+    
+
+    /* white : #E3F4F4 */
+    /* primary :  #00A4FF */
+    /* secondary : #3C9091 */
+  
+}
+
+.bg-nav-color{
+    background-color: #00A4FF;
+    margin-bottom: -6px;
+}
+
+.navbar-toggler-icon{
+   
+    width: 20px;
+   
+}
+
+
+.navbar-brand>img{
+    margin-left: -7px !important;
+    margin-right: -2px !important;
+}
+
+.navbar-text{
+    margin-left: -30px !important;
+    color: black !important;
+}
+
+.nav-item>a:hover{
+    color: white !important;
+    text-decoration: dashed !important;
+}
+
+.nav-link{
+    color: black !important;
+    
+}
+
+.bg-img{
+    background-image: url(src/landing-backgound.png);
+
+}
+
+.btn-1{
+    background-color:  #00A4FF;
+    width: 160px;
+    height: 50px;
+    border: #3C9091 solid 2px;
+    /* color: #E3F4F4; */
+}
+
+.btn-2{
+    background-color: #E3F4F4;
+    width: 160px;
+    height: 50px;
+    border: #00A4FF solid 2px;
+   
+}
+
+.btn-1:hover{
+    border: black solid 2px;
+    background-color: #3C9091;
+    color: #E3F4F4;
+}
+
+.btn-2:hover{
+    background-color:  #3C9091;
+    border: black solid 2px;
+    color: #E3F4F4;
+      
+}
+
+
+
+.main-bg{
+    background-color: #6cc3f3;
+}
+
+.pro-bg{
+    background-image: url(/src/schedule-bg.png);
+}
+
+.fee-list>h4{
+    background-color: #00A4FF;
+   
+}
+
+.pic-bg{
+    padding: 5px;
+    background-color: #70b9ba;
+    background-image: url(/src/background-schedule.jpg);
+}
+
+.foot-bg{
+    padding: 5px;
+    background-color: #3C9091;
+}
+
+.logo>img{
+    width: 25px;
+}
+
+
+ul {
+    list-style: none;
+  }
+  li {
+    margin: 0.25rem 0;
+  }
+  
+  a.underline-hover-effect {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .underline-hover-effect {
+    display: inline-block;
+    padding-bottom: 0.2rem; /* defines the space between text and underline */
+    position: relative;
+  }
+  
+  .underline-hover-effect::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.25s ease-out;
+  }
+  .underline-hover-effect:hover::before {
+    width: 100%;
+  }

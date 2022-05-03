@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mainpage.css">
+    <link href="offcanvas.css" rel="stylesheet">
+
+
+    <title>ELC </title>
+</head>
+
+<body class="main-font">
+
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" aria-label="Main navigation">
+            <div class=" bg-nav-color container-fluid">
+                <a class="navbar-brand" href="/mainpage.html" data-bs-toggle="tooltop" title="Logo">
+                    <img src="/src/Logo.png" class="img-fluid" alt="ELC Logo" style="width: 80px;">
+                </a>
+                <div class="navbar-text fw-bolder text-sm-center text-center text-xl-center text-md-center flex-fill">
+                    English Learning Centre
+                </div>
+                <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
+                   >
+
+                    <span class="navbar-toggler-icon" ></span>
+                </button>
+
+                <div class="navbar-collapse offcanvas-collapse" >
+
+                    <button type="button" class="btn btn-close text-end " 
+                    id="navbarSideClose"></button>
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-fill fw-bold" data-visible="false" >
+                        
+                        <li class="nav-item flex-fill">
+                            <a class="nav-link nav-text-color underline-hover-effect " href="/mainpage.html">Home</a>
+                        </li>
+                        <li class="nav-item flex-fill">
+                            <a class="nav-link nav-text-color underline-hover-effect"
+                                href="/mainpage.html#program">Program</a>
+                        </li>
+                        <li class="nav-item flex-fill">
+                            <a class="nav-link nav-text-color underline-hover-effect" href="/Event.html">Event</a>
+                        </li>
+                        <li class="nav-item flex-fill">
+                            <a class="nav-link nav-text-color underline-hover-effect" href="/AboutUs.html">About Us
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid" id="home">
+
+        <div class="containter-md bg-img p-2">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 d-flex align-items-center 
+                justify-content-center p-3 mt-5 " style="height: auto;">
+                    <img src="/src/both-homepage.png" class="img-fluid" alt="logo">
+                </div>
+                <div class="col-lg-6 col-sm-12 text-start d-flex align-items-center
+                 justify-content-center p-3 item-session" style="height: auto;">
+                    <div class="col-12 main-font animate__animated animate__fadeIn">
+                        <h4 class="text-danger fw-bold">English Learning Centre</h4>
+                        <p>
+                            From a small centre to a big one, ELC have been founded by twin siblings. It has been
+                            running for
+                            more than four years. ELC started with a small amount of students. Nevertheless, due to the
+                            hard
+                            works from teachers, ELC's students have gradually increasing day by day. Nowadays, there
+                            are a ton
+                            of students who are studying at ELC.
+                        </p>
+                        <div class="row">
+                            <div class="col-6 text-center">
+                                <a class="btn btn-2 fw-bold" href="#contact-us">
+                                    Contact Us </a>
+                            </div>
+                            <div class="col-6 ">
+                                <a class="btn  btn-1 fw-bold" href="#program">
+                                    See More
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class=" col-12 session-header  pt-7 p-3 mb-7">
+            <h3 class="fw-bolder mb-7 mt-1 " id="program">
+                Program
+            </h3>
+        </div>
+
+        <div class="container-fluid main-bg pro-bg mb-2 pb-5">
+
+            <div class="container-md pt-5 animate__animated animate__fadeInUp">
+                <div class=" col-lg-5 col-sm-10 fee-list ">
+                    <h4 class=" fw-bold p-2 text-light">
+                        English Program: Tuition fee 15$ </h4>
+                </div>
+
+                <table class="table  table-bordered text-break">
+                    <thead>
+                        <tr class="table-primary text-center">
+                            <th scope="col">Time</th>
+                            <th scope="col">School Day</th>
+                            <th scope="col">Text Book</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-secondary">
+
+                            <td>7:00 am - 9:00am</td>
+                            <td>Saturday - Sunday</td>
+                            <td>none</td>
+                        </tr>
+                        <tr class="table-success">
+
+                            <td>5:30 pm - 6:30 pm</td>
+                            <td>Monday - Friday</td>
+                            <td>
+                                <a type="button" class="" data-bs-toggle="modal" data-bs-target="#Modal-letgo">
+                                    Let's Go 1
+                                </a>
+                            </td>
+
+
+
+                            <div class="modal fade" tabindex="-1" id="Modal-letgo">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Let's Go 1- Text Book</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="text-center">
+                                                    <img src="/src/letgo1.png" class="img-fluid" alt="...">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <tr class="table-secondary">
+
+                            <td>5:30 pm - 6:30 pm</td>
+                            <td>Monday - Friday</td>
+                            <td>
+                                <a type="button" class="" data-bs-toggle="modal" data-bs-target="#Modal-Inter1">
+                                    Interchange 1
+                                </a>
+                            </td>
+                            <div class="modal fade" tabindex="-1" id="Modal-Inter1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Let's Go 1- Text Book</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="text-center">
+                                                    <img src="/src/interchange1.png" class="img-fluid" alt="...">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </tr>
+                        <tr class="table-success">
+
+                            <td>7:00 pm - 8:30 pm</td>
+                            <td>Monday - Friday</td>
+                            <td>
+                                <a type="button" class="" data-bs-toggle="modal" data-bs-target="#Modal-FF2">
+                                    Family and Friends 2
+                                </a>
+                            </td>
+                            <div class="modal fade" tabindex="-1" id="Modal-FF2">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Let's Go 1- Text Book</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="text-center">
+                                                    <img src="/src/familyandfriend2.png" class="img-fluid" alt="...">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="container-md mt-5 ">
+                <div class=" col-lg-5 col-sm-10 fee-list">
+                    <h4 class="mt-10 fw-bold p-2 text-light">
+                        Khmer Program </h4>
+                </div>
+
+                <table class="table  table-bordered
+                 text-center main-font pt-5">
+                    <thead>
+                        <tr class="table-primary ">
+
+                            <th scope="col">Class</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">School Day</th>
+                            <th scope="col"> Fee$ </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-secondary">
+                            <td>Kidergaten</td>
+                            <td>11:00 am - 12:30 pm</td>
+                            <td>Mon-Wed</td>
+                            <td>35$</td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>Grade1</td>
+                            <td>07:00 am - 09:00 am</td>
+                            <td>Sat - Sun</td>
+                            <td>35$</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td>Grade2</td>
+                            <td>09:00 am - 11:00 am</td>
+                            <td>Sat - Sun</td>
+                            <td>35$</td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>Grade4</td>
+                            <td>11:00 am - 12:30 pm</td>
+                            <td>Thu - Sun</td>
+                            <td>40$</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td>Grade6</td>
+                            <td>05:00pm - 07:00 pm</td>
+                            <td>Sat - Sun</td>
+                            <td>40$</td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>Grade8</td>
+                            <td>11:00am - 12:30 pm</td>
+                            <td>Thu - Sun</td>
+                            <td>40$</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+
+            </div>
+
+        </div>
+
+        <div class=" col-12 session-header  pt-7 p-3 mb-7">
+            <h3 class="fw-bolder mb-7 mt-1" id="program">
+                Picture
+            </h3>
+        </div>
+
+        <div class="container-fluid pic-bg ">
+            <div class="row set-img">
+                <div class="col-lg-3 col-md-4 col-6 mb-2">
+                    <img src="/src/studentPic01.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-2">
+                    <img src="/src/studentPic02.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-2">
+                    <img src="/src/studentPic03.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-2">
+                    <img src="/src/studentPicSingle06.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-2">
+                    <img src="/src/studentPicSingle01.jpg" class="img-fluid " alt="...">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-2">
+                    <img src="/src/studentPicSingle02.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-2">
+                    <img src="/src/studentPicSingle09.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-2">
+                    <img src="/src/studentPicSingle11.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-2">
+                </div>
+                <div class="col-lg-3"></div>
+
+
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <footer class="container-fluid foot-bg mt-3 text-light">
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 col-6 text-light">
+                <div class="row text-center">
+                    <div class="col-lg col-sm-12 col-12">
+                        Address: #462B
+                    </div>
+                    <div class="col-12 text-break pb-3">
+                        <div class="col">
+                            Sangkat TonleBask,
+                        </div>
+                        <div class="col">
+                            Khan Chamkamorn,
+                        </div>
+                        <div class="col">
+                            Phnom Penh.
+                            <img src="/src/geo-alt-fill.svg" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-sm-6 col-6 text-center " id="contact-us">
+                <div class="col p-1">
+                    Contact Us
+                </div>
+                <div class="col p-1">
+                    +855 96 537 7253
+                </div>
+                <div class="col">
+                    Email: ELC@example.com
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12 d-flex justify-content-center pl-2">
+                <div class="column">
+                    <div class="col p-1">
+                        Follow Us
+                    </div>
+                    <div class="row">
+                        <div class="col ">
+                            <a href="https://web.facebook.com/English-learning-center-107391788588303" class="logo">
+                                <img src="/src/fb.png" class="img-fluid " data-bs-target="tooltop"
+                                    title="English Learning Centre" alt="...">
+                            </a>
+
+                        </div>
+                        <div class="col logo">
+                            <img src="/src/telegram-removebg-preview.png" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                    <div class="col mt-2">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15637.105032739484!2d104.92720479858251!3d11.53202963714831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31095144c6bed3b3%3A0xae066ee08c4afdfc!2sEnglish%20Learning%20Centre!5e0!3m2!1sen!2skh!4v1650771939501!5m2!1sen!2skh"
+                            width="200" height="80" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-5 text-dark">
+                All right reserve © 2022 English Learning Centre
+            </div>
+            <div class="col-lg-4 col-md-7 text-center text-dark">
+                Developed by ChamreounKH
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="offcanvas.js"></script>
+
+
+</body>
+
+</html>

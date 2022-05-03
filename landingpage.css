@@ -1,0 +1,52 @@
+body{
+   
+/* background-image: url(/src/landing-background.jpg);
+background-repeat: no-repeat;
+background-size: cover; */
+
+height: 100vh;
+
+background-image: linear-gradient(135deg,  #27bdbd 40%, #00a4ff 72%,#3c9091 16%);
+    
+}
+
+.header-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.item-session>p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.btn-3{
+    background-color:  #00A4FF;
+    width: 160px;
+    height: 50px;
+    border: white solid 2px;
+    /* color: #E3F4F4; */
+}
+
+.btn-4{
+    background-color: #E3F4F4;
+    width: 160px;
+    height: 50px;
+    border: #00A4FF solid 2px;
+   
+}
+
+.btn-3:hover{
+    border: black solid 2px;
+    background-color: #3C9091;
+    color: #E3F4F4;
+}
+
+.btn-4:hover{
+    background-color:  #3C9091;
+    border: black solid 2px;
+    color: #E3F4F4;
+      
+}
