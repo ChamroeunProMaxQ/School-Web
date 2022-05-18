@@ -23,6 +23,12 @@
 
   }
 
+  .sidebar-offcanvas {
+  
+    width: 70%;
+
+  }
+
 .bg-nav-color{
     background-color: #00A4FF;
     margin-bottom: -6px;
